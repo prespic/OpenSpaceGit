@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System;
 
-public class Controll : MonoBehaviour {
+public class PlayerControll : MonoBehaviour {
     private float maxTurn = 2F;
     private float speed = 0.1F;
     private Vector3 direction = new Vector3(0, 0, 0.1F);
