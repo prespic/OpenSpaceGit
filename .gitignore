@@ -62,3 +62,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+To_je_jedno/.sencha-ide/status.json
+To_je_jedno/.tern-port

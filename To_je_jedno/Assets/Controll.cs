@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class Controll : MonoBehaviour {
@@ -11,8 +12,11 @@ public class Controll : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        var p = speed / Math.Sqrt(direction.x * direction.x + direction.z * direction.z);
         var player = GameObject.FindWithTag("Player");
+
         direction.x += Input.GetAxis("Horizontal") * speed;
+
         if (direction.x > speed)
         {
             direction.x = speed;
@@ -21,6 +25,6 @@ public class Controll : MonoBehaviour {
         {
             direction.x = -speed;
         }
-        player.transform.Translate(direction);
+        player.transform.Translate(direction * (float) p);
 	}
 }
