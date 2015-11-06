@@ -64,3 +64,5 @@ $RECYCLE.BIN/
 *.lnk
 To_je_jedno/.sencha-ide/status.json
 To_je_jedno/.tern-port
+To_je_jedno/.sencha-ide/file.json
+To_je_jedno/.sencha-ide/usage.json
