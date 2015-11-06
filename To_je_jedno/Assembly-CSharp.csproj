@@ -45,7 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Controll.cs" />
+     <Compile Include="Assets\Generator.cs" />
+     <Compile Include="Assets\Scripts\CenterMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerControll1.cs" />
+     <Compile Include="Assets\Scripts\PlayerControll2.cs" />
+     <Compile Include="Assets\Scripts\PlayerControll3.cs" />
+     <Compile Include="Assets\Scripts\PlayerControll4.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

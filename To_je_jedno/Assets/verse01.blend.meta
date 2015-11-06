@@ -10,23 +10,33 @@ ModelImporter:
     100004: Stars_001
     100006: Stars_002
     100008: //RootNode
+    100010: Sphere
+    100012: Sphere_001
     400000: ship1
     400002: Stars
     400004: Stars_001
     400006: Stars_002
     400008: //RootNode
+    400010: Sphere
+    400012: Sphere_001
     2300000: ship1
     2300002: Stars
     2300004: Stars_001
     2300006: Stars_002
+    2300008: Sphere
+    2300010: Sphere_001
     3300000: ship1
     3300002: Stars
     3300004: Stars_001
     3300006: Stars_002
+    3300008: Sphere
+    3300010: Sphere_001
     4300000: Stars_002
     4300002: Stars_001
     4300004: ship1
     4300006: Stars
+    4300008: Sphere_001
+    4300010: Sphere
     7400000: Default Take
     9500000: //RootNode
   materials:
